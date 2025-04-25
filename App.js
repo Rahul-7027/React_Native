@@ -8,6 +8,7 @@ import FlatListData from './components/FlatListData'
 import CustomList from './components/CustomList'
 import GridSystem from './components/GridSystem'
 import LoopList from './components/LoopList'
+import SectionListData from './components/SectionListData'
 
 
 
@@ -20,7 +21,8 @@ const App = () => {
       {/* <FlatListData/> */}
       {/* <CustomList/> */}
       {/* <GridSystem/> */}
-      <LoopList/>
+      {/* <LoopList/> */}
+      <SectionListData/>
     </View>
   )
 }
