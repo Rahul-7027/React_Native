@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
     },
     radio1: {
       fontSize: 23,
-      color: "black", 
+      color: "red", 
     },
     radiomake: {
       height: 20,
@@ -53,6 +53,7 @@ const styles = StyleSheet.create({
     },
     radioSelectBtn: {
       backgroundColor: "black",
+      color:"red",
       height: 10,
       width: 10,
       borderRadius: 5,
