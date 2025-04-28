@@ -10,37 +10,15 @@ import PressableEvent from './components/PressableEvent'
 import Status from './components/Status'
 import PlatFormDevice from './components/PlatFormDevice'
 import CustomModal from './components/CustomModal'
-import { NavigationContainer } from '@react-navigation/native'
-import { createStackNavigator } from '@react-navigation/stack'
+import StackNavigationUser from './components/StackNavigationUser'
 
-const Stack = createStackNavigator();
 
 const App = () => {
   return (
-    <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen name='Home' component={Home} />
-        <Stack.Screen name='About' component={About} />
-      </Stack.Navigator>
-    </NavigationContainer>
+    <StackNavigationUser />
   )
 }
 
-const Home=({navigation})=>{
-  return(
-    <View>
-      <Text>Home Screen</Text>
-      <Button title='Go to about Page' onPress={()=>{navigation.navigate("About")}}/>
-    </View>
-  )
-}
 
-const About=()=>{
-  return(
-    <View>
-      <Text>About Screen</Text>
-    </View>
-  )
-}
 
 export default App
