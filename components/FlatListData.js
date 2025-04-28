@@ -22,21 +22,21 @@ const FlatListData = () => {
   )
 }
 
-const styles = StyleSheet.create({
-  container: {
-    padding: 16,
-    marginTop: 50
-  },
-  item: {
-    fontSize: 18,
-    paddingVertical: 10,
-    color:"black",
-    borderColor:"red",
-    borderWidth:2,
-    margin:12,
-    backgroundColor:"blue",
-    textAlign:"center"
-  }
-});
+  const styles = StyleSheet.create({
+    container: {
+      padding: 16,
+      marginTop: 50
+    },
+    item: {
+      fontSize: 18,
+      paddingVertical: 10,
+      color:"black",
+      borderColor:"red",
+      borderWidth:2,
+      margin:12,
+      backgroundColor:"blue",
+      textAlign:"center"
+    }
+  });
 
 export default FlatListData
