@@ -11,11 +11,12 @@ import Status from './components/Status'
 import PlatFormDevice from './components/PlatFormDevice'
 import CustomModal from './components/CustomModal'
 import StackNavigationUser from './components/StackNavigationUser'
-
+import TabNavigationUser from './components/TabNavigationUser'
+import TopTabNavigationModel from './TopTabNavigationModel'
 
 const App = () => {
   return (
-    <StackNavigationUser />
+    <TopTabNavigationModel/>
   )
 }
 

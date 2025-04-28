@@ -2,12 +2,13 @@ import React from 'react'
 import { NavigationContainer } from '@react-navigation/native'
 import { createStackNavigator } from '@react-navigation/stack'
 import HomeStack from './HomeStack';
-import { About } from './HomeStack';
+import AboutStack from './AboutStack';
 import { Button, Text, View } from 'react-native'
 
 const Stack = createStackNavigator();
 
 const StackNavigationUser = () => {
+    
     return (
         <NavigationContainer>
             <Stack.Navigator
@@ -28,7 +29,7 @@ const StackNavigationUser = () => {
                         headerTintColor: "white"
                     }}
                     name='Home' component={HomeStack} />
-                <Stack.Screen name='About' component={About} />
+                <Stack.Screen name='About' component={AboutStack} />
             </Stack.Navigator>
         </NavigationContainer>
     )
